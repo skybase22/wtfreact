@@ -11,10 +11,11 @@ class App extends Component {
     return (
       
       <center><div>
-        <div className = "font">Wellcome to Game!</div>
-        <div className="font2">Find My Name</div>
+        <div className ="font">Wellcome to Game!</div>
+        <div className ="font2">Find My Name</div>
         <WordCard value="noppadol" />
       </div></center>
+      
     );
   }
  }
