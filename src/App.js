@@ -9,9 +9,12 @@ const word = "Hello";
 class App extends Component {
   render() {
     return (
-      <div>
-        <WordCard value="hello" />
-      </div>
+      
+      <center><div>
+        <div className = "font">Wellcome to Game!</div>
+        <div className="font2">Find My Name</div>
+        <WordCard value="noppadol" />
+      </div></center>
     );
   }
  }

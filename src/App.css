@@ -25,16 +25,34 @@
 .card {
  display: inline-block;
  text-align: center;
+ align-items: center;
  width: 3em;
- font-size: 2em;
- box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+ font-size: 3em;
+ box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.164);
+ box-flex-group: red ;
  margin: 1em;
  user-select: none;
+ font-family: "MarkPro Medium",center;
+ padding: 10px;
+ background-image: url("tenor2.png");
+ padding: 30px;
+ 
 }
+.font {
+  font-size: 6em;
+  border-style: solid;
+  border-color: skyblue;
+  font-family: "MarkPro Medium", Times, serif;
+  text-align: center;}
+
+.font2 {
+  font-size: 3em;
+  font-family: "MarkPro Medium", Times, serif;
+  text-align: center;}
 
 .activeCard {
- color: red;
- background: pink;
+ 
+ background-image: url("tenor.gif");
 }
 
 
